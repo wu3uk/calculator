@@ -1,0 +1,56 @@
+.App {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.main {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.buttons {
+  background-color:lightcoral;
+  display: flex;
+  padding: 5px;
+}
+
+.buttons .button {
+  user-select: none;
+  font-size: large;
+  border-radius: 2.5px;
+  background-color: maroon;
+  color: #f7f7e3;
+  width: 50px;
+  height: 30px;
+  margin: 2px;
+}
+
+.buttons #operators {
+  margin-left: 5px;
+}
+
+.buttons #numbers {
+  margin-right: 5px;
+}
+
+.buttons .button:hover {
+  background-color: #660000;
+}
+
+.output {
+  overflow-x: none;
+  overflow-y: auto;
+  text-align: left;
+  vertical-align: middle;
+  font-size: large;
+  font-weight: 1000;
+  background-color: beige;
+  color: #303030;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  height: 366px;
+  width: 200px;
+  padding: 15px;
+  padding-right: 10px;
+}
